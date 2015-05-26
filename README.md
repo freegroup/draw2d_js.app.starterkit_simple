@@ -1,4 +1,4 @@
-# draw2d_app.boilerplate
+# Draw2D JS boilder plate project
 
 Demo project to build a basic HTML5 diagramming application with the http://www.draw2d.org
 framework.
@@ -9,4 +9,5 @@ check out this tutorial if you are not familar with this tools:
 http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap/
 
 
-Checkout the running result at http://freegroup.github.io/draw2d_js.app.starterkit_simple/
+
+Result: http://freegroup.github.io/draw2d_js.app.starterkit_simple/
