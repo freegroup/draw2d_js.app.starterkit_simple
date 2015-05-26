@@ -39,11 +39,11 @@ module.exports = function (grunt) {
 
         copy: {
             application: {
-                expand:true,
+                expand: true,
                 cwd: 'src/',
-                src:  '**/*.html',
+                src: '**/*.html',
                 dest: 'dist/'
-    }
+            }
         },
 
         less: {
@@ -87,6 +87,12 @@ module.exports = function (grunt) {
                     livereload: true
                 }
             }
+        },
+        'gh-pages': {
+            options: {
+                base: 'dist'
+            },
+            src: ['**']
         }
     });
 
@@ -96,8 +102,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-gh-pages');
+
     // Task definition
     grunt.registerTask('default', ['jshint', 'concat', 'less', 'copy']);
+    grunt.registerTask('publish', ['jshint', 'concat', 'less', 'copy', 'gh-pages']);
 
 
 };

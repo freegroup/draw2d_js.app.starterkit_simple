@@ -23,11 +23,12 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "latest",
-    "jshint-stylish": "latest",
     "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-jshint": "latest",
     "grunt-contrib-less": "~1.0.1",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-copy": "~0.8.0"
+    "grunt-gh-pages": "^0.10.0",
+    "jshint-stylish": "latest"
   }
 }
