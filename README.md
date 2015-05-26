@@ -24,6 +24,14 @@ npm install -g bower
 ```
 and you have it.
 
+##Download draw2d.js
+and all required libraries in the right version with one command
+```
+bower install
+```
+now you have draw2d.js, jequery, raphael,...in the right version in your project.
+
+
 ##Install dependencies for the Gruntfile.js
 ```
 npm install
