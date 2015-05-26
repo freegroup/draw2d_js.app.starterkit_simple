@@ -1,4 +1,4 @@
-# Draw2D JS boilder plate project
+# Draw2D JS boilderplate project
 
 Preview: http://freegroup.github.io/draw2d_js.app.starterkit_simple/
 
