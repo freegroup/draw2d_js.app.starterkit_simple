@@ -1,0 +1,33 @@
+{
+  "name": "draw2d_js.app.starterkit_simple",
+  "version": "0.0.1",
+  "description": "Draw2D HTML5 getting started demo application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freegroup/draw2d_js.app.starterkit_simple.git"
+  },
+  "keywords": [
+    "diagramming",
+    "canvas",
+    "HTML5",
+    "js"
+  ],
+  "author": "Andreas Herz (FreeGroup)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/freegroup/draw2d_js.app.starterkit_simple/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "latest",
+    "jshint-stylish": "latest",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-less": "~1.0.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-copy": "~0.8.0"
+  }
+}
