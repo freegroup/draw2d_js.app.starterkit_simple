@@ -7,6 +7,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-     "draw2d": "~5.5.2"
+    "draw2d": "~5.5.2",
+    "jquery.browser": "~0.0.7"
   }
 }
